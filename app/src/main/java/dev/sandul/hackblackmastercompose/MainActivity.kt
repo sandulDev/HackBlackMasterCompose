@@ -86,8 +86,8 @@ class MainActivity : ComponentActivity() {
                     },
                     content = { innerPadding ->
 //                        ListExamples(innerPadding)
-                        CalculatorLayout(innerPadding = innerPadding)
-//                        TextFieldExampleLayout(innerPaddingValues = innerPadding)
+//                        CalculatorLayout(innerPadding = innerPadding)
+                        TextFieldExampleLayout(innerPaddingValues = innerPadding)
 //                        ButtonExamplesScreen(innerPaddingValues = innerPadding)
                     }
                 )

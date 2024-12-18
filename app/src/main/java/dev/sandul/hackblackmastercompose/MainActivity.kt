@@ -19,6 +19,7 @@ import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
+import dev.sandul.hackblackmastercompose.lesson_002.ButtonExamplesScreen
 import dev.sandul.hackblackmastercompose.lesson_003.ListExamples
 import dev.sandul.hackblackmastercompose.ui.theme.HackBlackMasterComposeTheme
 
@@ -85,9 +86,9 @@ class MainActivity : ComponentActivity() {
                         )
                     },
                     content = { innerPadding ->
-//                        ListExamples(innerPadding)
-//                        CalculatorLayout(innerPadding = innerPadding)
-//                        TextFieldExampleLayout(innerPaddingValues = innerPadding)
+                        ListExamples(innerPadding)
+                        CalculatorLayout(innerPadding = innerPadding)
+                        TextFieldExampleLayout(innerPaddingValues = innerPadding)
                         ButtonExamplesScreen(innerPaddingValues = innerPadding)
                     }
                 )
